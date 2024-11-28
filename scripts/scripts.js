@@ -70,9 +70,7 @@ function buildAutoBlocks(main) {
 
     var pageTheme = document.querySelector("meta[name='theme']").getAttribute("content");
     //console.log(pageTheme);
-    if (pageTheme == "Articolo" || pageTheme == "articolo" ) {
         buildHeroBlock(main);
-    }
 
   } catch (error) {
     // eslint-disable-next-line no-console
